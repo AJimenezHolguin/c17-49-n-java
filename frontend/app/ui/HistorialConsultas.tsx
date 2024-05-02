@@ -8,13 +8,8 @@ interface Props {
 
 export const HistorialConsultas: React.FC<Props> = ({ funcionProp }) => {
   const fechaHoraActual = new Date();
-<<<<<<< HEAD
-  const doctores = especialidades[0].doctores;
-
-=======
 
   const doctores = especialidades[2].doctores;
->>>>>>> 96940da964694a4118056da538bf75e6b096fc74
   return (
     <div className="flex flex-col gap-2 mt-2 px-4 md:px-0 md:w-full h-[200px]">
       <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6">
