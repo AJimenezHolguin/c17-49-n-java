@@ -6,10 +6,6 @@ import { HistorialConsultas } from "@/app/ui/HistorialConsultas";
 import { SioNo } from "@/app/ui/modals/SioNo";
 
 
-
-
-
-
 export default function misConsultas() {
   const [isMessageVisible, setIsMessageVisible] = useState(true);
   const [mensaje, setMensaje] = useState("");
