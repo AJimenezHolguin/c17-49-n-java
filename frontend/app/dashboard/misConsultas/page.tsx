@@ -10,7 +10,6 @@ import { LlamadaAbierta } from '@/app/ui/modals/LlamadaAbierta';
 
 
 
-
 export default function misConsultas() {
   const [isMessageVisible, setIsMessageVisible] = useState(true);
   const [mensaje, setMensaje] = useState("");
